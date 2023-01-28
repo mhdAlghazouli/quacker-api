@@ -7,7 +7,7 @@ require('dotenv').config();
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'http://localhost:3001',
+  origin: 'https://quacker.onrender.com',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   preflightContinue: false,
   optionsSuccessStatus: 204,
