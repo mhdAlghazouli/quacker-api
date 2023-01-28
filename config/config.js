@@ -20,14 +20,14 @@ module.exports =
     
   },
   "test": {
-    "username": process.env.DBHOST,
+    "username": process.env.DBNAME,
     "password": process.env.DBPASSWORD,
     "database": process.env.DBNAME,
     "host": process.env.DBHOST,
     "dialect": "postgres"
   },
   "production": {
-    "username": process.env.DBHOST,
+    "username": process.env.DBNAME,
     "password": process.env.DBPASSWORD,
     "database": process.env.DBNAME,
     "host": process.env.DBHOST,
