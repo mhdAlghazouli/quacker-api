@@ -26,7 +26,7 @@ router.post('/', async function(req, res, next) {
     bcrypt.compare(password, user.password, (err, result) => {
       console.log(user)
       if(err) {
-        console.error("this is errrrr:",err);
+        console.error(err);
         
       }else if(result) {
         const token = createToken(user.id);
@@ -40,10 +40,12 @@ router.post('/', async function(req, res, next) {
         }
         res.json({status: "ok", data})
       }else{
-        res.sendStatus(401);
+        console.error(err)
+        res.json({error: "incorrect password"});
       }
     });
   }else{
+    console.log("error")
     res.json({error: "this email is not registered"});
   }
   
