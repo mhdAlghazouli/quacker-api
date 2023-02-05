@@ -1,29 +1,9 @@
-<h3>This project is split into two separate repositories: a Quacker repository and a Quacker-api repository. </h3>
+<h3>This project is split into two separate repositories: a Quacker-client repository and a Quacker-api repository. </h3>
 <h1 style="color: yellow">Quacker</h1>
 <h2>Quacker is a social media app that allows users to post updates and connect with friends.</h2>
 
 <h3>Front End</h3>
-<ul>The front-end is built using the following technologies:</ul>
-
-<li>React</li>
-<li>React Bootstrap</li>
-<li>React Icons</li>
-<li>Moment</li>
-<li>React-Responsive</li>
-<h4> Profile page:</h4>
-<img src="https://user-images.githubusercontent.com/94564835/216842700-a9f057d2-0c21-4f6c-918b-12712cd20048.png"/>
-<h4> posts, comments and likes:</h4>
-<img src="https://user-images.githubusercontent.com/94564835/216842809-f07667c1-dd8b-44b6-a8b5-bcfe6a4c24fb.png" />
-<h4>Market place: </h4>
-<img src="https://user-images.githubusercontent.com/94564835/216842993-f17a3d4f-6e55-40ce-8ca8-2d8005b776cb.png" />
-<h4>Add a product to the market:</h4>
-<img src="https://user-images.githubusercontent.com/94564835/216843134-3e877d81-e3aa-4b3f-a585-a5b180b83fcc.png"/>
-<h4>All Products:</h4>
-<img src="https://user-images.githubusercontent.com/94564835/216843165-afef8666-3916-4eca-a54b-bb62e3aa4f7e.png" />
-<h4>delete my product:</h4>
-<img src="https://user-images.githubusercontent.com/94564835/216843191-60cdfdfa-605f-4d6d-87f1-03b1fec687e8.png"/>
-<h4>Mobile version:</h4>
-<img src="https://user-images.githubusercontent.com/94564835/216843321-667ba92a-1898-4fd1-9b60-f739fc06f089.png"/>
+<a href="https://github.com/mhdAlghazouli/quacker-client">Quacker-client</a>
 <h3>Back End</h3>
 <ul>The back-end is built using the following technologies:</ul>
 
